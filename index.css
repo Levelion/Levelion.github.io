@@ -1,0 +1,76 @@
+.navbar-dark .navbar-brand {
+    color: yellow;
+}
+.navbar-dark .navbar-brand:hover{
+	color: orange;
+} 
+.header{
+	background-image: url(https://img2.akspic.ru/image/34307-superkar-sportkar-moshhnye_mashiny-avtomobil_koncepcii-mercedes_benz-1920x1080.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0rem;
+	height: 39rem;
+}
+.overlay{
+	background: rgba(128,128,128,0.55);
+	min-width: 100%;
+	min-height: 39rem;
+	position: absolute;
+}
+.description{
+	position: absolute;
+	top: 40%;
+	color: white;
+	margin: auto;
+}
+.about{
+	background-color: #343a40;
+	color: white;
+	padding: 4em 0.7em;
+	position: relative;
+}
+.text_gray{
+	color: lightgray;
+}
+.galerry{
+	background-color: darkgray;
+	padding: 4em 10em;
+	position: relative;
+	color: white;
+	text-shadow: -2px 1px 2px #343a40;
+}
+.blog{
+	background-color: #343a40;
+	color: white;
+	padding: 4em 0.7em;
+	position: relative;
+}
+.card-body{
+	color: #343a40;
+}
+.des{
+	background: #343a40;
+	color: white;
+	text-align: right;
+	padding-right: 1rem;
+	border: 2px solid gray;
+}
+.manager:hover .des{
+	background: #343a40!important;
+	opacity: 40%;
+	width: 90%;
+	height: 72%;
+	position: absolute;
+	top: 0;
+	transition: .5s ease-in-out;
+}
+.manager:hover .hide{
+	visibility: hidden;
+}
+.contact{
+	background-color: #343a40!important;
+	padding: 4em 10em;
+	position: relative;
+	color: white;
+}
